@@ -25,3 +25,8 @@ void loop() {
 void encapsulated_delay() {
   delay(3554);
 }
+
+
+void encapsulated_delay2() {
+  delay(3554);
+}
