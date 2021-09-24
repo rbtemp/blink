@@ -17,9 +17,9 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-  encapsulated_delay();               // wait for a second
+  encapsulated_delay();    
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  encapsulated_delay2();               // wait for a second
+  encapsulated_delay2(); 
 }
 
 void encapsulated_delay() {
