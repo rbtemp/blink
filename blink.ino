@@ -21,3 +21,7 @@ void loop() {
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
   delay(3554);               // wait for a second
 }
+
+void encapsulated_delay() {
+  delay(3554);
+}
