@@ -14,22 +14,17 @@ void setup() {
   pinMode(13, OUTPUT);     
 }
 
-
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
   encapsulated_delay();    
-  
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
   encapsulated_delay2(); 
 }
 
-
 void encapsulated_delay() {
   delay(3554);
 }
-
-
 
 void encapsulated_delay2() {
   delay(3554);
